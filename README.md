@@ -23,3 +23,10 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## Answers
+The runtime is $\Theta(|V|^2)$. Generating the distance array runs in $|V|$ time. The while loop runs $|V|$ times. The first for loop runs a $|V|$ number of times and the second one runs a maximum of $|V|$ number of times. This gives us an overall time complexity of $|V| + |V| \cdot (|V| + |V|) = |V| + 2 \cdot |V|^2 = \Theta(|V|^2)$.
+
+## Sources
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice." 
