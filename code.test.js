@@ -1,7 +1,6 @@
 // Setup Code to copy and paste
 const fs = require('fs');
 const assert = require('assert');
-const { INSPECT_MAX_BYTES } = require('buffer');
 eval(fs.readFileSync('code.js') + '');
 
 // Manually create tests. Not ideal but I can't figure out prooperty based testing
